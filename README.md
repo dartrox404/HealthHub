@@ -50,18 +50,23 @@ flutter run
 
 ## 📁 Project Structure
 
+```bash
 lib/
-├── core/ # Core utilities & configurations
-│ ├── const/ # App constants
-│ ├── extensions/ # Useful extensions
-│ └── theme/ # Theme, colors, typography
-├── data/ # Data layer
-│ ├── model/ # Data models
-│ └── routes/ # App routing
-├── features/ # Feature-based modules
-│ ├── pages/ # Screen pages
-│ └── widgets/ # Reusable widgets
+├── core/                          # Core utilities & configurations
+│   ├── const/                     # App constants
+│   ├── extensions/                # Useful extensions
+│   └── theme/                     # Theme, colors, typography
+│
+├── data/                          # Data layer
+│   ├── model/                     # Data models
+│   └── routes/                    # App routing
+│
+├── features/                      # Feature-based modules
+│   ├── pages/                     # Screen pages
+│   └── widgets/                   # Reusable widgets
+│
 └── main.dart
+
 
 ## 🏗 Architecture
 
@@ -74,3 +79,4 @@ Contributions are welcome! Feel free to open issues and pull requests.
 ## 📄 License
 
 This project is licensed under the MIT License.
+```
